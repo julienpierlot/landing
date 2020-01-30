@@ -1,0 +1,40 @@
+.banner {
+  background-color: #fd5e53;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 100px 0px;
+  width: 100%;
+
+}
+
+.banner h1, .banner p, .banner a {
+  margin: 10px;
+}
+
+.banner h1 {
+  font-size: 2em;
+}
+
+.banner p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 1.5em;
+  }
+  
+  .banner p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner {
+    width: 350px;
+  }
+}
